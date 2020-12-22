@@ -23,6 +23,9 @@
   margin: 0;
   padding: 0; }
 
+background-color: {
+  background-color: #000000; }
+
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -485,12 +488,12 @@ img {
   height: auto;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: black;
+  background-color: transparent;
   padding: 15px 30px; }
 
 .header-area .logo-area a {
   color: #ffffff;
-  font-size: 36px;
+  font-size: 2.2rem;
   font-weight: 100; }
 
 @media only screen and (max-width: 767px) {
@@ -630,10 +633,10 @@ img {
 
 /* :: Hero Slides Area CSS */
 .hero-slides .single-hero-slide {
-  height: 100vh;
+  height: 950px;
   position: relative;
   z-index: 1;
-  padding: 0 40px;
+  padding: 0 40px 100px;
   -webkit-transition-duration: 800ms;
   transition-duration: 800ms;
   overflow: visible;
@@ -675,13 +678,13 @@ img {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .hero-slides .single-hero-slide {
-    height: 100vh; } }
+    height: 800px; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .hero-slides .single-hero-slide {
-    height: 100vh; } }
+    height: 700px; } }
 @media only screen and (max-width: 767px) {
   .hero-slides .single-hero-slide {
-    height: 100vh; } }
+    height: 550px; } }
 .hero-slides .owl-dots {
   position: absolute;
   left: 50px;
