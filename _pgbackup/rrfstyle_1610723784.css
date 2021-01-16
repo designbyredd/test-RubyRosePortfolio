@@ -1,0 +1,21 @@
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
